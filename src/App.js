@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import './assets/style.css';
 import ChildComponent from './components/ChildComponent';
+import TaskList from './components/TaskList';
 
 function App() {
 
@@ -20,7 +21,8 @@ function App() {
   return (
     <div className="App">
       <h2 className="name">Welcome to React JS</h2>
-      <ChildComponent name={name} address={address} setName={(val) => anotherFunc(val)} />
+      {/* <ChildComponent name={name} address={address} setName={(val) => anotherFunc(val)} /> */}
+      <TaskList />
     </div>
   );
 }
