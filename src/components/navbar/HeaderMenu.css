@@ -1,0 +1,16 @@
+.header-menu {
+    background-color: #242838;
+}
+
+.header-menu .nav-link a, .header-menu .navbar-brand a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff!important;
+    font-size: 30px;
+}
+
+.header-menu .nav-link.active a, .header-menu .navbar-brand.active a {
+    color: yellowgreen!important;
+    border-bottom: 2px solid;
+}

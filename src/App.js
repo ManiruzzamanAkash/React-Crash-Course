@@ -9,15 +9,15 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import About from './components/About';
-import Contact from './components/Contact';
-import Home from './components/Home';
+
+import routes from './routes';
+import HeaderMenu from './components/navbar/HeaderMenu';
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <nav>
+        {/* <nav>
           <ul>
             <li>
               <Link to="/">Home</Link>
@@ -29,19 +29,22 @@ function App() {
               <Link to="/contact">Contact Us</Link>
             </li>
           </ul>
-        </nav>
-        <Switch>
+        </nav> */}
+        <HeaderMenu />
 
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-          <Route path="/" exact>
-            <Home />
-          </Route>
-        </Switch>
+        <div className="content-area p-5">
+          <Switch>
+            {
+              routes.map((route, index) => (
+                <Route
+                  path={route.path}
+                  exact={route.exact}
+                  component={route.component}
+                />
+              ))
+            }
+          </Switch>
+        </div>
 
         {/* <h2 className="name">Welcome to React JS</h2> */}
       </div>
