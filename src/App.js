@@ -4,6 +4,7 @@ import './App.css';
 import './assets/style.css';
 import ChildComponent from './components/ChildComponent';
 import TaskList from './components/TaskList';
+import Counter from './components/Counter';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <h2 className="name">Welcome to React JS</h2>
       {/* <ChildComponent name={name} address={address} setName={(val) => anotherFunc(val)} /> */}
       <TaskList />
+      <Counter />
     </div>
   );
 }
