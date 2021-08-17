@@ -1,5 +1,7 @@
 import React, {useState} from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import './assets/style.css';
 import ChildComponent from './components/ChildComponent';
 
 function App() {
@@ -17,7 +19,7 @@ function App() {
 
   return (
     <div className="App">
-      <h2>Welcome to React JS</h2>
+      <h2 className="name">Welcome to React JS</h2>
       <ChildComponent name={name} address={address} setName={(val) => anotherFunc(val)} />
     </div>
   );
