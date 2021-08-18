@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/React-Crash-Course/static/css/main.8a7b4b8c.chunk.css",
+    "main.js": "/React-Crash-Course/static/js/main.c3838cd3.chunk.js",
+    "main.js.map": "/React-Crash-Course/static/js/main.c3838cd3.chunk.js.map",
+    "runtime-main.js": "/React-Crash-Course/static/js/runtime-main.fda120b9.js",
+    "runtime-main.js.map": "/React-Crash-Course/static/js/runtime-main.fda120b9.js.map",
+    "static/css/2.fb17aa6d.chunk.css": "/React-Crash-Course/static/css/2.fb17aa6d.chunk.css",
+    "static/js/2.2efa779b.chunk.js": "/React-Crash-Course/static/js/2.2efa779b.chunk.js",
+    "static/js/2.2efa779b.chunk.js.map": "/React-Crash-Course/static/js/2.2efa779b.chunk.js.map",
+    "static/js/3.6779e8cf.chunk.js": "/React-Crash-Course/static/js/3.6779e8cf.chunk.js",
+    "static/js/3.6779e8cf.chunk.js.map": "/React-Crash-Course/static/js/3.6779e8cf.chunk.js.map",
+    "index.html": "/React-Crash-Course/index.html",
+    "static/css/2.fb17aa6d.chunk.css.map": "/React-Crash-Course/static/css/2.fb17aa6d.chunk.css.map",
+    "static/css/main.8a7b4b8c.chunk.css.map": "/React-Crash-Course/static/css/main.8a7b4b8c.chunk.css.map",
+    "static/js/2.2efa779b.chunk.js.LICENSE.txt": "/React-Crash-Course/static/js/2.2efa779b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fda120b9.js",
+    "static/css/2.fb17aa6d.chunk.css",
+    "static/js/2.2efa779b.chunk.js",
+    "static/css/main.8a7b4b8c.chunk.css",
+    "static/js/main.c3838cd3.chunk.js"
+  ]
+}
