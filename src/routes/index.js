@@ -5,11 +5,6 @@ import Portfolio from "../components/portfolio/Portfolio";
 
 const routes = [
     {
-        path: '/',
-        component: Home,
-        exact: true
-    },
-    {
         path: '/portfolio',
         component: Portfolio,
         exact: true
@@ -23,6 +18,11 @@ const routes = [
         path: '/contact',
         component: Contact,
         exact: true
+    },
+    {
+        path: '/',
+        component: Home,
+        // exact: true  // @todo: Removed this just to publish the app on Github Page, otherwise, please add it
     },
 ]
 
