@@ -43,13 +43,13 @@ src/utils/data.js
 ```
 
 #### Change Route 
-Change route to fix duplicate render. I've done only to publish React Page in Github - `src/routes/index.js`
-
+Change route to fix duplicate render. I've done only to publish React Page in Github - `src/routes/index.js` 
+at **Line No - 23**
 ```js
 {
     path: '/',
     component: Home,
-    // exact: true  // @todo: Removed this just to publish the app on Github Page, otherwise, please add it
+    exact: true // This should true, I've added it as false in github just for page make in github
 },
 ```
 
@@ -58,3 +58,32 @@ Change route to fix duplicate render. I've done only to publish React Page in Gi
 http://localhost:3000
 
 Booom !!! You made a great portfolio website.
+
+## See the complete Step by step article 
+https://devsenv.com/tutorials/learn-react-complete-crash-course-with-three-complete-project-devsenv
+
+
+# Chapters or Topic Wise Codes
+1. **Components Learning** - https://github.com/ManiruzzamanAkash/React-Crash-Course/tree/components
+
+1. **Component Communication** - https://github.com/ManiruzzamanAkash/React-Crash-Course/tree/component-communication
+
+1. **CSS Styles Learning** - https://github.com/ManiruzzamanAkash/React-Crash-Course/tree/css
+
+1. **Conditional & Loop Learning** - https://github.com/ManiruzzamanAkash/React-Crash-Course/tree/condition-loop
+
+1. **Task Application** - https://github.com/ManiruzzamanAkash/React-Crash-Course/tree/my-task
+
+1. **Components Learning** - https://github.com/ManiruzzamanAkash/React-Crash-Course/tree/components
+
+1. **Counter App** - https://github.com/ManiruzzamanAkash/React-Crash-Course/tree/counter-app
+
+1. **React Router Learning** - https://github.com/ManiruzzamanAkash/React-Crash-Course/tree/react-router
+
+1. **Portfolio & Final Website** - https://github.com/ManiruzzamanAkash/React-Crash-Course/tree/portfolio-template
+
+Final website is also in `main` branch
+
+
+### Still Any Issues?
+Just mail me about your problem - manirujjamanakash@gmail.com
