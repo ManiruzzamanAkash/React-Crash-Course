@@ -84,6 +84,29 @@ https://devsenv.com/tutorials/learn-react-complete-crash-course-with-three-compl
 
 Final website is also in `main` branch
 
+### Dockerize Setup:
+
+```sh
+## Dev Environment
+# Build a docker image:portfolio.
+docker build -t portfolio:dev .
+
+# Fire Up the docker container
+docker-compose up -d --build
+
+# Now check from browser
+http://localhost:3001
+
+## Production Environment
+docker build -f DockerFile.prod -t portfolio:prod .
+
+# Fire up the container in Live
+docker-compose -f docker-compose.prod.yml up -d --build
+
+# Run in Live Browser in 1337 port
+http://localhost:1337
+```
+
 
 ### Still Any Issues?
 Just mail me about your problem - manirujjamanakash@gmail.com
